@@ -12,6 +12,8 @@ import {
 import React, {useState} from "react";
 import {Note, noteItemStyles} from "./components/note.item";
 
+// lagging
+
 export default function App() {
     const [title, setTitle] = useState<string>("");
     const [content, setContent] = useState<string>("");
